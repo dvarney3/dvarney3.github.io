@@ -514,11 +514,11 @@ footer {
   }
 
   #aboutText {
-    top: 89%;
+    top: 109%;
   }
 
   #contactText {
-    top: 100%;
+    top: 139%;
   }
 
   #mobileContact {
@@ -526,7 +526,7 @@ footer {
   }
 
   #workText {
-    top: 139%;
+    top: 169%;
   }
 
   #workHeader {
@@ -538,7 +538,7 @@ footer {
   }
 
   #siteWrapper {
-    height: 900px;
+    height: 1500px;
   }
 
   #aboutSection {
