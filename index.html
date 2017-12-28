@@ -8,80 +8,85 @@
 
   <link rel="stylesheet" type="text/css" href="/css/master.css" />
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" href="/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
 </head>
 
 <body>
+  <div id="siteWrapper">
     <div id="firstPageView">
-<header>
-  <nav id="mainNav">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#work">Work</a></li>
-    </ul>
-  </nav>
+<header class="header">
   <div id="logo">
-    <img src="/images/logo.png" />
+  <a href="/" class="logo"><img src="/images/logo.png"></a>
   </div>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#aboutSection">About Me</a></li>
+      <li><a href="#contactText">Contact</a></li>
+      <li><a href="#workSection">Work</a></li>
+    </ul>
 </header>
 
     <div id="mainTitle">
       <h1>David J. Varney</h1>
       <h2>Junior Web Developer</h2>
-      <a href="https://github.com/dvarney3" target="_blank">View GitHub</a>
+      <a href="https://github.com" target="_blank">View GitHub</a>
     </div>
-
+</div>
   <div style="clear:both;"></div>
-
-  <div id="about">
-    <h3>About</h3><br>
+<div id="aboutSection">
+  <div id="aboutText">
+    <h3>ABOUT<br>ME</h3><br>
     <p>
-      My name is David Varney. I am currently working as a Junior Front End Developer for a company called XO Logic. I work closely with both the development departments and customer service departments to make sure that all of our customer's design and front end development needs are met.
+      I am looking for a job as a Junior Front End Web Developer. I am currently working as a Backup Front End Web Developer and Customer Implementation Specialist. I currently spend a lot of time coding HTML, CSS, JavaScript, and jQuery. I am familiar with MySQL and I am learning Angular.js and React.js.
     </p>
 
   </div>
-
+</div>
   <div style="clear:both;"></div>
 
-  <div id="contact">
-    <h3>Contact</h3><br>
-    <p>
-    I can be contacted at <a href="mailto:david.varney@live.com">david.varney@live.com</a><br><br>
-    Linked-In Profile: <a href="https://www.linkedin.com/in/david-j-varney-60820453" target="_blank">David J Varney</a> <br><br>
-    Resume: <a href="/pdfs/Resume_of_David_J_Varney.pdf" target="_blank">Click Here</a>
-  </p>
+<div id="contactSection">
+  <div id="contactText">
+    <h3 id="mobileContact">Contact</h3><br>
+      <p>
+        I can be contacted at <a href="mailto:david.varney@live.com">david.varney@live.com</a><br><br>
+        Linked-In Profile: <a href="https://www.linkedin.com/in/david-j-varney-60820453" target="_blank">David J Varney</a> <br><br>
+        Resume: <a href="/pdfs/Resume_of_David_J_Varney.pdf" target="_blank">Click Here</a>
+      </p>
+    </div>
   </div>
 
-  <div id="work">
-    <h3>Code Samples</h3><br>
-    <p>
-      Code Samples on Git Hub:<br>
-      <a href="https://github.com/dvarney3">Git Hub</a>
-    </p>
-
+<div id="workSection">
+  <div id="workText">
+      <h3 id="workHeader">Code Samples</h3><br>
+        <p id="workParagraph">
+          Code Samples on Git Hub:<br>
+          <a href="https://github.com">Git Hub</a>
+        </p>
+    </div>
   </div>
     <div style="clear:both;"></div>
 </div>
+  <footer>
+    <div class="footerCol">
+      <span>LinkedIn:</span><br><br>
+      <a href="https://www.linkedin.com/in/david-j-varney-60820453" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+    </div>
 
-<footer>
-<div class="footerCol">
-  <span>LinkedIn:</span><br><br>
-  <a href="https://www.linkedin.com/in/david-j-varney-60820453" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-</div>
+    <div class="footerCol">
+      <span>Navigation</span><br><br>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#work">Work</a>
+    </div>
 
-<div class="footerCol">
-  <span>Navigation</span><br><br>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
-  <a href="#work">Work</a>
-</div>
+    <div class="footerCol">
+      <div id="copyright"> &copy; David J. Varney</div>
+    </div>
 
-<div class="footerCol">
-  <div id="copyright"> &copy; David J. Varney</div>
-</div>
+  </footer>
 
-</footer>
 
   <script src=""></script>
   <script src="https://use.fontawesome.com/6401c05a9e.js"></script>
