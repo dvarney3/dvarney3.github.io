@@ -478,7 +478,7 @@ footer {
       }
 
 @media only screen
-  and (min-width: 513px) {
+  and (min-width: 767px) {
     .header li {
       float: left;
     }
@@ -496,7 +496,7 @@ footer {
   }
 
 @media only screen
-  and (max-width: 513px) {
+  and (max-width: 767px) {
 
     #siteWrapper {
       width: 100%;
@@ -538,7 +538,7 @@ footer {
   }
 
   #siteWrapper {
-    height: 1500px;
+    height: 900px;
   }
 
   #aboutSection {
