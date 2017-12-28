@@ -366,8 +366,7 @@ footer {
 /* Media Queries */
 
 @media only screen
-  and (min-width: 359px)
-  and (max-width: 641px) {
+  and (min-width: 767px) {
     .header li {
       float: left;
     }
