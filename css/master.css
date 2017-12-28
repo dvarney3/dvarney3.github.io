@@ -514,11 +514,11 @@ footer {
   }
 
   #aboutText {
-    top: 109%;
+    top: 89%;
   }
 
   #contactText {
-    top: 139%;
+    top: 100%;
   }
 
   #mobileContact {
@@ -526,7 +526,7 @@ footer {
   }
 
   #workText {
-    top: 169%;
+    top: 139%;
   }
 
   #workHeader {
