@@ -188,7 +188,7 @@ background-image:
 linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
 linear-gradient(#eee .1em, transparent .1em);
 background-size: 100% 1.2em;
-height: 1400px;
+height: auto;
 width: 100%;
 }
 
@@ -324,7 +324,7 @@ footer {
   and (max-width: 767px) {
 
   #secondPageView {
-    height: 780px;
+    height: auto;
   }
 
   p {
